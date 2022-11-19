@@ -19,6 +19,15 @@ export default function BookForm() {
             <input className="input" type="text" placeholder="Author" />
           </div>
         </div>
+
+        <div className="field">
+          <label className="label">Date Read</label>
+          <div className="control">
+            <input className="input" type="date" placeholder="Date Read" />
+          </div>
+        </div>
+
+        <button class="button is-primary">Add Book</button>
       </div>
     </div>
   )
