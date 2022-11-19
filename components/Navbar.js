@@ -11,12 +11,12 @@ export default function Navbar() {
               Home
             </Link>
 
-            <Link href="/movie" className="navbar-item">
-              Add Movie
-            </Link>
-
             <Link href="/book" className="navbar-item">
               Add Book
+            </Link>
+
+            <Link href="/books" className="navbar-item">
+              My Books
             </Link>
           </div>
         </div>
