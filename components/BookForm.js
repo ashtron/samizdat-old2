@@ -27,7 +27,14 @@ export default function BookForm() {
           </div>
         </div>
 
-        <button class="button is-primary">Add Book</button>
+        <div className="field">
+          <label className="label">Cover Image</label>
+          <div className="control">
+            <input className="input" type="text" placeholder="https://..." />
+          </div>
+        </div>
+
+        <button className="button is-primary">Add Book</button>
       </div>
     </div>
   )
